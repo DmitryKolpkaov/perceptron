@@ -35,7 +35,7 @@ print("Результат после обучения:")
 print(outputs)
 
 #Тест - новая ситуация
-new_inputs = np.array([[1,1,0],[0,0,0],[0,0,1]])
+new_inputs = np.array([[1,1,0]])
 output = sigmoid(np.dot(new_inputs, synaptic_weights))
 
 print("Новая ситуация:")
